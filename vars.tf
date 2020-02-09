@@ -8,19 +8,19 @@ variable "region" {
   type = string
 }
 
-variable "k8s-version" {
+variable "k8s_version" {
   type = string
 }
-variable "k8s-node-size" {
+variable "k8s_node_size" {
   type = string
 }
-variable "k8s-min-nodes" {
+variable "k8s_min_nodes" {
   type        = number
   description = "Has to be at least 1"
 }
-variable "k8s-max-nodes" {
+variable "k8s_max_nodes" {
   type = number
 }
-variable "openfaas-chart-version" {
+variable "openfaas_chart_version" {
   type = string
 }
