@@ -3,7 +3,7 @@
 This is a simple example terraform project that sets up a openfaas environment using the managed kubernetes plattform provided by digitalocean.
 
 ## How to use it?
-* Adjust the terraform.tfvars as you like. You have to provide your access token from digital token via the do_token variable.
+* Adjust the terraform.tfvars as you like. You have to provide your access token from digital ocean via the do_token variable.
 * terraform init followed up by terraform apply / destroy as usual.
 
 ## What is created at digitalocean?
