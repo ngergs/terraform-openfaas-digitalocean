@@ -11,4 +11,4 @@ This is a simple example terraform project that sets up a openfaas environment u
 * One loadbalancer.
 
 ## How to access openfaas afterwards?
-Look up the ip address of the just created lb. The openfaas ui is accessible under http://<ip-from-lb>:8080/ui. Username is admin and the password is printed in the console after creation (this assumes linux as well as that doctl and kubectl are provided in the PATH).
+Look up the ip address of the just created lb. The openfaas ui is accessible under http://ip-from-lb:8080/ui. Username is admin and the password is printed in the console after creation (this assumes linux as well as that doctl and kubectl are provided in the PATH).
